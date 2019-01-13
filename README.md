@@ -23,7 +23,7 @@ All of blockers components are located in `Scripts/Blocker` but the parameter pr
 ![Screnshot](https://i.redd.it/i2jwcxhwb8s11.gif)
 
 ### To do
-* Reset the robot's position after the player restarts the sequence
+* ~~Reset the robot's position after the player restarts the sequence~~
 * Implement block rearrangement within the sequence
 * Implement callbacks that cause the sequencer to wait for the command to finish before moving onto the next block
-* Ability to remove blocks from sequence
+* ~~Ability to remove blocks from sequence~~ (Can remove all of them for now)

@@ -113,7 +113,7 @@ namespace Blocker
             GameObject newParameterGameObject = Instantiate(parameterPrefab, transform);
             T component = newParameterGameObject.GetComponent<T>();
 
-            if(component == null)
+            if (component == null)
             {
                 Debug.LogError(string.Format("Could not find component {0} on {1}", typeof(T).ToString(), parameterPrefab.name));
             }
@@ -133,7 +133,7 @@ namespace Blocker
                 if (rt != null)
                 {
                     size += rt.sizeDelta.x;
-                }               
+                }
             }
             size += layoutGroup.spacing * (transform.childCount - 1);
             size += layoutGroup.padding.left + layoutGroup.padding.right;
